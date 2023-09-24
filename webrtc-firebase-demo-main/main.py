@@ -51,7 +51,7 @@ def logout():
 def createroom():
     if 'user_id' in session:
         os.system("npm run dev")
-        return redirect('http://localhost:3000/')
+        return redirect(':3000')
     return redirect('/')
 
 
