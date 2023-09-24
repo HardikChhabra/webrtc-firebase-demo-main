@@ -10,6 +10,8 @@
     "vite": "^2.0.5"
   },
   "dependencies": {
-    "firebase": "^8.10.1"
+    "firebase": "^8.10.1",
+    "python": "3.9.5",
+    "Flask": "2.2.3"
   }
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/forgot_pwd.css') }}">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="content">
+        <h1>The request has been sent to your organisation,<br>You will be contacted shortly with your new Password</h1>
+        <a href="/">
+            <button class="spacex-button" type="button">Go Home</button>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="{{ url_for('static', filename='js/forgot_pwd.js') }}"></script>
+</body>
+</html>

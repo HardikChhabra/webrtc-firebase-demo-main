@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/index.css') }}">
+</head>
+<body>
+    <!-- Particle.js background -->
+    <div id="particles-js"></div>
+    <!-- Content container -->
+    <div class="content">
+        <h1>Welcome to Secure Chat</h1>
+        <p>Based On Peer-To-Peer Technology. Making Your Calls Secure</p>
+        <a href="/login">
+            <button class="spacex-button" type="button">Sign-In/Sign-up</button>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
